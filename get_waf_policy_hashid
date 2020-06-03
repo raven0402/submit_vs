@@ -1,0 +1,5 @@
+curl --location --request GET 'https://10.1.1.146/mgmt/tm/asm/policies/' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Basic YWRtaW46YWRtaW4=' \
+--header 'Cookie: BIGIPAuthUsernameCookie=admin; BIGIPAuthCookie=8E7830B145370D7E492B6C1C0369EF25B79CB6F9' \
+--data-raw ''
