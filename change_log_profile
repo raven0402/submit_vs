@@ -1,0 +1,11 @@
+curl --location --request PATCH 'https://10.1.1.146/mgmt/tm/ltm/virtual/vs_standard' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Basic YWRtaW46YWRtaW4=' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: BIGIPAuthUsernameCookie=admin; BIGIPAuthCookie=1506B348AA15212FAA6DFB58EE1542D6B4A62B79' \
+--data-raw '{
+    "securityLogProfiles": [
+        "\"/Common/Log illegal requests\"",
+        "/Common/local-dos"
+    ]
+}'
