@@ -1,0 +1,10 @@
+curl --location --request PATCH 'https://10.1.1.146/mgmt/tm/asm/policies/Diykd-5Ci8jlRpC8o_RXPQ' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Basic YWRtaW46YWRtaW4=' \
+--header 'Content-Type: text/plain' \
+--header 'Cookie: BIGIPAuthUsernameCookie=admin; BIGIPAuthCookie=40E90FBA2D37C0F79493ED617DFDAD97BF8C7125' \
+--data-raw '{
+	"virtualServers": [
+        "/Common/vs_standard"
+    ]
+}'
